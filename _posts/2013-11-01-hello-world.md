@@ -6,8 +6,9 @@ categories: [测试]
 tags: [测试]
 published:true
 ---
-<h2>{{ page.title  }}</h2>
+# {{ page.title }} #
 
-<p>我的第一篇文章,在github上搭建的博客</p>
+{{page.summary}}
+我的第一篇文章,在github上搭建的博客
 
-<p>{{ page.date | date_to_string  }}</p>
+{{ page.date | date_to_string  }}
